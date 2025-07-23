@@ -2,7 +2,47 @@
 
 Este documento describe la hoja de ruta para el desarrollo del **SpeedRun Project Manager**, un gestor de proyectos avanzado con diagramas Gantt y soporte para Markdown.
 
-## 📋 Estado Actual: v0.1.0 (Enero 2025)
+## 📊 Cronograma Visual del Proyecto
+
+```mermaid
+gantt
+    title SpeedRun Project Manager - Cronograma de Desarrollo
+    dateFormat  YYYY-MM-DD
+    section Fundación
+    Proyecto Inicial (v0.1.0)    :done, foundation, 2025-07-23, 2025-07-23
+    
+    section Q3 2025
+    Autenticación Real (v0.2.0)  :active, auth, 2025-07-24, 2025-09-15
+    OAuth GitHub/GitLab          :auth-oauth, 2025-07-24, 2025-08-15
+    MongoDB Conexión Real        :auth-db, 2025-08-01, 2025-08-31
+    CRUD Proyectos/Tareas        :auth-crud, 2025-08-15, 2025-09-15
+    
+    section Q4 2025
+    Interfaz Avanzada (v0.3.0)   :ui, 2025-09-16, 2025-11-30
+    Dashboard Avanzado           :ui-dash, 2025-09-16, 2025-10-15
+    Editor Tareas Avanzado       :ui-tasks, 2025-10-01, 2025-11-15
+    Búsqueda y Filtros          :ui-search, 2025-11-01, 2025-11-30
+    
+    section Q1 2026
+    Diagramas Gantt (v0.4.0)     :gantt, 2025-12-01, 2026-03-15
+    Visualización Mermaid        :gantt-viz, 2025-12-01, 2026-01-31
+    Interactividad              :gantt-inter, 2026-01-15, 2026-02-28
+    Templates Proyecto          :gantt-temp, 2026-02-15, 2026-03-15
+    
+    section Q2 2026
+    Colaboración (v0.5.0)        :collab, 2026-03-16, 2026-06-15
+    Sistema Comentarios         :collab-comm, 2026-03-16, 2026-04-30
+    Notificaciones Real-time    :collab-notif, 2026-04-15, 2026-05-31
+    Control Versiones           :collab-ver, 2026-05-15, 2026-06-15
+    
+    section Q3-Q4 2026
+    Producción Ready (v1.0.0)    :prod, 2026-06-16, 2026-09-30
+    Exportación PDF             :prod-pdf, 2026-06-16, 2026-07-31
+    Integración Git             :prod-git, 2026-07-15, 2026-08-31
+    Optimización Final          :prod-opt, 2026-08-15, 2026-09-30
+```
+
+## 📋 Estado Actual: v0.1.0 (Julio 2025)
 
 ### ✅ Funcionalidades Completadas
 - Configuración base con Next.js 14 + Express
@@ -16,7 +56,7 @@ Este documento describe la hoja de ruta para el desarrollo del **SpeedRun Projec
 
 ---
 
-## 🚀 Version 0.2.0 - "Autenticación Real" (Q1 2025)
+## 🚀 Version 0.2.0 - "Autenticación Real" (Q3 2025)
 
 ### 🎯 Objetivo Principal
 Implementar autenticación completa y gestión básica de proyectos con base de datos real.
@@ -71,7 +111,7 @@ Implementar autenticación completa y gestión básica de proyectos con base de 
 
 ---
 
-## 🎨 Version 0.3.0 - "Interfaz Avanzada" (Q2 2025)
+## 🎨 Version 0.3.0 - "Interfaz Avanzada" (Q4 2025)
 
 ### 🎯 Objetivo Principal
 Mejorar significativamente la experiencia de usuario con interfaces avanzadas y funcionalidades colaborativas.
@@ -120,7 +160,7 @@ Mejorar significativamente la experiencia de usuario con interfaces avanzadas y 
 
 ---
 
-## 📊 Version 0.4.0 - "Diagramas Gantt" (Q2-Q3 2025)
+## 📊 Version 0.4.0 - "Diagramas Gantt" (Q1 2026)
 
 ### 🎯 Objetivo Principal
 Implementar la funcionalidad principal de diagramas Gantt interactivos con Mermaid.
@@ -158,7 +198,7 @@ Implementar la funcionalidad principal de diagramas Gantt interactivos con Merma
 
 ---
 
-## 💬 Version 0.5.0 - "Colaboración" (Q3 2025)
+## 💬 Version 0.5.0 - "Colaboración" (Q2 2026)
 
 ### 🎯 Objetivo Principal
 Implementar funcionalidades colaborativas avanzadas y comunicación en tiempo real.
@@ -191,7 +231,7 @@ Implementar funcionalidades colaborativas avanzadas y comunicación en tiempo re
 
 ---
 
-## 🚀 Version 1.0.0 - "Producción Ready" (Q4 2025)
+## 🚀 Version 1.0.0 - "Producción Ready" (Q3-Q4 2026)
 
 ### 🎯 Objetivo Principal
 Lanzamiento oficial con funcionalidades completas, optimización y estabilidad de producción.
@@ -314,5 +354,5 @@ Lanzamiento oficial con funcionalidades completas, optimización y estabilidad d
 
 ---
 
-*Última actualización: Enero 2025*  
-*Próxima revisión: Marzo 2025*
+*Última actualización: Julio 2025*  
+*Próxima revisión: Octubre 2025*
