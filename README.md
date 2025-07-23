@@ -196,6 +196,16 @@ docker-compose down
 docker-compose logs -f
 ```
 
+## 🗺️ Roadmap
+
+Para conocer las funcionalidades planeadas y el cronograma de desarrollo, consulta nuestro [**ROADMAP detallado**](ROADMAP.md).
+
+**Próximas versiones:**
+- **v0.2.0**: Autenticación OAuth real con GitHub/GitLab
+- **v0.3.0**: Interfaz avanzada y editor de tareas con dependencias
+- **v0.4.0**: Diagramas Gantt interactivos con Mermaid
+- **v1.0.0**: Lanzamiento de producción completo
+
 ## 🤝 Contribución
 
 1. Fork el proyecto
